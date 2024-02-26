@@ -8,6 +8,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <views:DataGirdView />
+        <TabControl>
+            <TabItem Header="第一种绑定方法">
+                <views:DataGirdView />
+
+            </TabItem>
+            <TabItem Header="第二种绑定方法">
+                <views:DataGrid2View/>
+            </TabItem>
+
+        </TabControl>
     </Grid>
 </Window>

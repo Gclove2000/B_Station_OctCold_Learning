@@ -21,6 +21,7 @@
                     Content="AddNewItem" />
             <!--添加名称，方便绑定-->
             <hc:TextBox Text="{Binding FilterStr,UpdateSourceTrigger=PropertyChanged}"
+                        
                         hc:InfoElement.Placeholder="Filter By Name"
                         MinWidth="200"
                         Margin="5 0 0 0"

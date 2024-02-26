@@ -17,7 +17,7 @@
 |文件名|原视频地址|CSDN博客地址|
 -|-|-
 DataGrid_Filter|[在 WPF 中制作 DataGrid 的数据筛选功能](https://www.bilibili.com/video/BV1aP411u7wN/?spm_id_from=333.999.0.0&vd_source=17cf6a5a912b0a39a628030a5814462c)|[WPF 【十月的寒流】学习笔记(1):DataGrid过滤](https://blog.csdn.net/qq_44695769/article/details/136287235?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22136287235%22%2C%22source%22%3A%22qq_44695769%22%7D)
-
+WpfMvvmDemo|[MVVM实战技巧之：可被观测的集合（ObservableCollection & BindingLis](https://www.bilibili.com/video/BV16e4y1F7Vm/?spm_id_from=333.337.search-card.all.click&vd_source=17cf6a5a912b0a39a628030a5814462c)|[WPF 【十月的寒流】学习笔记(2):MVVM中是怎么实现通知的](https://blog.csdn.net/qq_44695769/article/details/136310245?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22136310245%22%2C%22source%22%3A%22qq_44695769%22%7D)
 
 
 
@@ -39,3 +39,4 @@ DataGrid_Filter|[在 WPF 中制作 DataGrid 的数据筛选功能](https://www.b
 > [WPF-UI HandyControl 控件简单实战+IconPacks矢量图导入](https://blog.csdn.net/qq_44695769/article/details/135012230?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170886629116800186553367%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=170886629116800186553367&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-135012230-null-null.nonecase&utm_term=handycontrol&spm=1018.2226.3001.4450)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/d771e00ddb1442f5a6ccf57cf482d88b.png)
+

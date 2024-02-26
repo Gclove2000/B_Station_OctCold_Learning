@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="DataGrid_Filter.Views.DataGrid2View"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DataGrid_Filter.Views"
+             xmlns:viewModels="clr-namespace:DataGrid_Filter.ViewModels"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <viewModels:DataGrid2ViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <DockPanel LastChildFill="True">
+
+            <StackPanel DockPanel.Dock="Bottom"
+                        Orientation="Horizontal"
+                        Margin="5">
+                <Button Command="{Binding AddItemCommand}"
+                        Content="AddNewItem" />
+                <!--添加名称，方便绑定-->
+                <hc:TextBox Text="{Binding FilterStr,UpdateSourceTrigger=PropertyChanged}"
+                            hc:InfoElement.Placeholder="Filter By Name"
+                            MinWidth="200"
+                            Margin="5 0 0 0"
+                            x:Name="FilterBox" />
+            </StackPanel>
+            <!--添加名称，方便绑定-->
+            <DataGrid ItemsSource="{Binding CollectionView}"
+                      x:Name="PeopleDataGrid">
+
+            </DataGrid>
+        </DockPanel>
+    </Grid>
+</UserControl>

@@ -10,6 +10,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
@@ -21,7 +22,7 @@ namespace DataGrid_Filter.ViewModels
         private string title = "DataGird Tttle";
 
         [ObservableProperty]
-        private ObservableCollection<Models.Person> peopleList = new();
+        private List<Models.Person> peopleList = new();
 
         [ObservableProperty]
         private ICollectionView collectionView;
@@ -55,8 +56,7 @@ namespace DataGrid_Filter.ViewModels
 
         public DataGridViewModel()
         {
-            PeopleList = new ObservableCollection<Models.Person>(Faker.Generate(10));
-
+            PeopleList = new(Faker.Generate(10));
         }
 
         [RelayCommand]
@@ -64,6 +64,8 @@ namespace DataGrid_Filter.ViewModels
         {
             var item = Faker.Generate();
             PeopleList.Add(item);
+            OnPropertyChanged(new PropertyChangedEventArgs(nameof(PeopleList)));
+
         }
 
         public void ViewInit()
