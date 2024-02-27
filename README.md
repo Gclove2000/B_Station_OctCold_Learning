@@ -18,7 +18,7 @@
 -|-|-
 DataGrid_Filter|[在 WPF 中制作 DataGrid 的数据筛选功能](https://www.bilibili.com/video/BV1aP411u7wN/?spm_id_from=333.999.0.0&vd_source=17cf6a5a912b0a39a628030a5814462c)|[WPF 【十月的寒流】学习笔记(1):DataGrid过滤](https://blog.csdn.net/qq_44695769/article/details/136287235?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22136287235%22%2C%22source%22%3A%22qq_44695769%22%7D)
 WpfMvvmDemo|[MVVM实战技巧之：可被观测的集合（ObservableCollection & BindingLis](https://www.bilibili.com/video/BV16e4y1F7Vm/?spm_id_from=333.337.search-card.all.click&vd_source=17cf6a5a912b0a39a628030a5814462c)|[WPF 【十月的寒流】学习笔记(2):MVVM中是怎么实现通知的](https://blog.csdn.net/qq_44695769/article/details/136310245?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22136310245%22%2C%22source%22%3A%22qq_44695769%22%7D)
-
+DataGrid_Pagination|[WPF 中如何制作 DataGrid 的分页功能](https://www.bilibili.com/video/BV1T84y1t7Xc/?spm_id_from=333.999.0.0&vd_source=17cf6a5a912b0a39a628030a5814462c)|[WPF 【十月的寒流】学习笔记(3):DataGrid分页](https://blog.csdn.net/qq_44695769/article/details/136332652?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22136332652%22%2C%22source%22%3A%22qq_44695769%22%7D)
 
 
 # 基础知识补充
@@ -40,3 +40,6 @@ WpfMvvmDemo|[MVVM实战技巧之：可被观测的集合（ObservableCollection 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/d771e00ddb1442f5a6ccf57cf482d88b.png)
 
+# 实现效果
+![alt text](images/PixPin_2024-02-25_23-56-26.gif) 
+![alt text](images/PixPin_2024-02-27_23-15-29.gif)
